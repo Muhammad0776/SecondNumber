@@ -10,6 +10,10 @@ body {
   box-sizing: border-box;
 }
 
+span {
+  border-radius: 100% !important;
+}
+
 .min-section {
   background: transparent;
   max-width: 600px;
