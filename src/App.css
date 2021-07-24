@@ -1,5 +1,5 @@
 body {
-  background: rgb(14, 42, 51);
+  background: rgb(11, 185, 147);
   background-size: cover;
   background-size: 50% 50%;
 }
@@ -36,7 +36,7 @@ span {
 }
 
 .stopwatch span {
-  background: #066b69de;
+  background: #111;
   color: rgb(255, 255, 255);
   display: inline-block;
   font-family: monospace;
