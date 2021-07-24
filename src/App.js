@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import DisplayComponent from './components/DisplayComponent';
 import BtnComponent from './components/BtnComponent';
+import Secundomer from './Secundomer/Secundomer';
 import './App.css';
 
 function App() {
@@ -57,6 +58,7 @@ function App() {
       <div className="main-section">
         <div className="clock-holder shadow">
           <div className="stopwatch">
+            <Secundomer />
             <DisplayComponent time={time} />
             <BtnComponent status={status} resume={resume} restart={restart} stop={stop} start={start} />
           </div>
